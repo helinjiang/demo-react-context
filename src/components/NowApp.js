@@ -11,6 +11,7 @@ export default class NowApp extends Component {
     };
 
     handleChange = () => {
+        // 切换的时候，会导致 Provide 里面的组件重新渲染
         this.setState({
             type: this.state.type === 1 ? 2 : 1
         });
