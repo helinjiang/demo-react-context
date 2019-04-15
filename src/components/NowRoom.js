@@ -9,7 +9,7 @@ export default class NowRoom extends Component {
             <div>
                 <NowContext.Consumer>
                     {(context) => (
-                        <NowRoomItem data={context.state} context={context} />
+                        <NowRoomItem data={context.state} context={context} handleChange={this.props.handleChange} />
                     )}
                 </NowContext.Consumer>
             </div>

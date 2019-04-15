@@ -5,8 +5,8 @@ import NowContext from './NowContext';
 export default class NowProvider extends Component {
     state = {
         guid: '123456abcdefg',
-        name: 'now app',
-        bannerName: 'I am banner!',
+        name: 'now app2',
+        bannerName: 'I am banner!2',
         count: 0
     };
 
